@@ -11,7 +11,9 @@ const Category = () => {
           <li><Link to="Trouser">Trouser</Link></li>
           <li><Link to="Jewellery">Jewellery</Link></li>
         </ul>
-        <Outlet/>
+        <main>
+          <Outlet/>
+        </main>
     </div>
   )
 }

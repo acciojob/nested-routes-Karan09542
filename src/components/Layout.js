@@ -16,8 +16,9 @@ const Layout = () => {
         </ul>
       </nav>
       <Routes>
+        <Route index element={<div>Index</div>} />
         <Route path="/women" element={<Category />}>
-          <Route index path="Grooming" element={<p>Grooming Items</p>} />
+          <Route path="Grooming" element={<p>Grooming Items</p>}/>
           <Route path="Shirt" element={<p>Shirt Items</p>} />
           <Route path="Trouser" element={<p>Trouser Items</p>} />
           <Route path="Jewellery" element={<p>Jewellery Items</p>} />
