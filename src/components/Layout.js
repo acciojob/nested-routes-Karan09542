@@ -4,7 +4,7 @@ import Category from "./Category";
 
 const Layout = () => {
   return (
-    <div>
+    <main>
       <nav>
         <ul>
           <li>
@@ -23,7 +23,7 @@ const Layout = () => {
           <Route path="Jewellery" element={<p>Jewellery Items</p>} />
         </Route>
       </Routes>
-    </div>
+    </main>
   );
 };
 
