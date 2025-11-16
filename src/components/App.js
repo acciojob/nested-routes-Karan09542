@@ -7,10 +7,10 @@ import Layout from "./Layout";
 
 const App = () => {
   return (
-    <div>
+    <main>
         {/* Do not remove the main div */}
         <Layout/>
-    </div>
+    </main>
   )
 }
 
